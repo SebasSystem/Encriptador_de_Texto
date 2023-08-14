@@ -1,0 +1,237 @@
+body{
+    background-color: #F3F5FC;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+header{
+    padding: 20px;
+}
+.caja-titulo{
+    position: absolute;
+    margin: 20px auto 0 44px;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+.titulo-principal{
+    font-size: 32px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    margin: 10px;
+    text-align: left
+}
+main{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.establecer-texto{
+    color: #0A3871;
+    margin: 164px 100px 0px 168px;
+}
+.texto-establecer{
+    border: none;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    font-size: 28px;
+    width: 684px;
+    height: 624px;
+    outline: none;
+    resize: none;
+    font-family: sans-serif;
+}
+.texto-establecer::placeholder{
+    color: #0A3871;
+}
+.caja-recomendacion{
+    display: flex;
+    align-items: center;
+}
+.texto-recomendacion{
+    color: #495057;
+    padding: 16px 4px;
+    font-size: 12px;   
+}
+.encriptador{
+    width: 49%;
+    height: 67px;
+    padding: 15px;
+    margin-right: 8px;
+    font-size: 16px;
+    color:white;
+    background: #0A3871;
+    border:none;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.encriptador:active{
+    background-color: #F3F5FC;
+}
+.desencriptador{
+    width: 49%;
+    height: 67px;
+    padding: 15px;
+    font-size: 16px;
+    color:#0A3871;
+    box-sizing: border-box;
+    border: 2px solid #0A3871;
+    background: #F3F5FC;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.desencriptador:active{
+    background-color: #0A3871;
+}
+.impresion-texto{
+    position: relative;
+
+    
+}
+.caja-texto-impreso{
+    width: 400px;
+    height: auto;
+    min-height: 944px;
+    background-color: #ffffff;
+    margin: 0px 50px 50px 50px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px #00000014;
+}
+.imagen-sin-texto{
+    padding-top: 234px;
+}
+.mensaje{
+    font-weight: bold;
+    color: #343A40;
+    font-size: 24px;
+    padding: 24px 0;
+}
+.texto-impreso{
+    font-size: 16px;
+    color: #495057;
+    padding: 5px 0px 182px 0px;   
+}
+#texto-script{
+    font-size: 24px;
+    color: #495057;
+    word-wrap: break-word;
+}
+.texto-script-arriva{
+    text-align: left;
+    padding: 24px 8px;
+    min-height: 782px;
+}
+#botonCopiar{
+    width: 80%;
+    margin-bottom: 24px;
+}
+@media screen and (max-width:1175px){
+    main{
+        display: inline-block;
+    }
+    .caja-titulo{
+        margin-top: 30px;
+        position: relative;
+        width: 90%;
+    }
+    .establecer-texto{
+        width: 100%;
+        margin: 32px 12px;
+        padding: 0px; 
+        
+    }
+    .texto-establecer{
+        height: 672px;
+    }
+    .caja-texto-ingresado{
+        width: auto;
+    }
+    .caja-recomendacion{
+        margin-left: 30px;
+    }
+    .encriptador, .desencriptador{
+        width: 332px;
+    }
+    .impresion-texto{
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        right: auto;
+        position: static;
+        width: 93.71%;
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+    .caja-texto-impreso{
+        height: auto;
+        min-width: 100%;
+        margin: 0px 0px 32px 0px;
+        min-height: 10px;
+        
+    }
+    .mensaje{
+        padding: 34px 0 12px 0;
+    }
+    .texto-impreso{
+        padding: 12px 0px 34px 0px;
+    }
+    .imagen-sin-texto{
+        display: none;
+    }
+    #texto-script{
+        
+        margin: auto;
+    }
+    .texto-script-arriva{
+        height: auto;
+        margin: 0px;
+        min-height: auto;
+    }
+    #botonCopiar{
+        width: 50%;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:399px){
+    .caja-titulo{
+        margin: 20px 0 0 0;
+        width: auto;
+    }
+    .titulo-principal{
+        position: relative;
+        right: auto;
+        font-size: 24px;
+    }
+    .texto-establecer{
+        width: auto;
+        height: 324px;
+    }
+    .establecer-texto{
+        margin: 50px 10px 0px 10px;
+    }
+    .caja-recomendacion{
+        padding-left: 14%;
+    }
+    .encriptador{
+        margin-bottom: 20px;
+    }
+
+    .impresion-texto{
+        padding: 0px 0px 0px 10px;
+        margin: 30px auto;
+        width: auto;
+    }
+    #texto-script{
+        max-width: 40vh;
+        min-width: 90%;
+        margin: auto;
+    }
+    #botonCopiar{
+        width: 90%;
+    }
+}

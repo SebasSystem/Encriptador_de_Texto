@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+    <title>Encriptardor_de_Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="caja-titulo">
+            <img src="img/Logo.png">
+            <h1 class="titulo-principal">Encriptador Sebastian MD</h1>
+        </div>
+    </header>
+    <main>
+        <section class="establecer-texto">
+            <div class="caja-texto-ingresado">
+                <textarea name="textarea" class="texto-establecer" placeholder="Ingrese el texto aqui" id="textoIngresado"></textarea>
+            </div>
+            <div>
+                <ul class="caja-recomendacion">
+                    <li>
+                        <img src="img/Vector.png" class="imagen-vector">
+                    </li>
+                    <li>
+                        <p class="texto-recomendacion">Solo letras minusculas y sin acentos</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="boton-encriptador-desencriptador">
+                <input type="submit" value="Encriptar" class="encriptador" id="botonEncriptador">
+                <input type="submit" value="Desencriptar" class="desencriptador" id="botonDesencriptador">
+            </div>
+        </section>
+        <section class="impresion-texto">
+            <ul class="caja-texto-impreso">
+                <li>
+                    <img src="img/Muñeco.png" class="imagen-sin-texto">
+                    <p class="mensaje">Ningún mensaje fue encontrado</p>
+                    <p class="texto-impreso">Ingresa el texto que deseas encriptar o desencriptar</p>
+                </li>
+            </ul>   
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
