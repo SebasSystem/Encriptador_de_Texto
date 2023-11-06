@@ -8,9 +8,9 @@ header{
 }
 .caja-titulo{
     position: absolute;
-    margin: 20px auto 0 44px;
+    margin: 4vh auto 0 44px;
     display: flex;
-    width: 100%;
+    width: 80%;
     align-items: flex-start;
 }
 .titulo-principal{
@@ -28,7 +28,7 @@ main{
 }
 .establecer-texto{
     color: #0A3871;
-    margin: 164px 100px 0px 168px;
+    margin: 14vh 5vh 0px 5vh;
 }
 .texto-establecer{
     border: none;
@@ -36,7 +36,7 @@ main{
     color: #0A3871;
     font-size: 28px;
     width: 684px;
-    height: 624px;
+    height: 54vh;
     outline: none;
     resize: none;
     font-family: sans-serif;
@@ -93,7 +93,7 @@ main{
 .caja-texto-impreso{
     width: 400px;
     height: auto;
-    min-height: 944px;
+    min-height: 88vh;
     background-color: #ffffff;
     margin: 0px 50px 50px 50px;
     padding: 0px 20px;
@@ -102,7 +102,7 @@ main{
     box-shadow: 0px 24px 32px -8px #00000014;
 }
 .imagen-sin-texto{
-    padding-top: 234px;
+    padding-top: 10%;
 }
 .mensaje{
     font-weight: bold;
@@ -113,7 +113,7 @@ main{
 .texto-impreso{
     font-size: 16px;
     color: #495057;
-    padding: 5px 0px 182px 0px;   
+    padding: 5px 0px 24px 0px;   
 }
 #texto-script{
     font-size: 24px;
@@ -123,29 +123,28 @@ main{
 .texto-script-arriva{
     text-align: left;
     padding: 24px 8px;
-    min-height: 782px;
+    min-height: 68vh;
 }
 #botonCopiar{
     width: 80%;
     margin-bottom: 24px;
 }
-@media screen and (max-width:1175px){
+@media screen and (max-width:1285px){
     main{
         display: inline-block;
     }
     .caja-titulo{
-        margin-top: 30px;
         position: relative;
         width: 90%;
     }
     .establecer-texto{
         width: 100%;
-        margin: 32px 12px;
+        margin: 32px 0px;
         padding: 0px; 
         
     }
     .texto-establecer{
-        height: 672px;
+        height: 50vh;
     }
     .caja-texto-ingresado{
         width: auto;
@@ -160,7 +159,7 @@ main{
         display: inline-block;
         align-items: center;
         text-align: center;
-        margin: 0 auto;
+        margin-bottom: 24px;
         right: auto;
         position: static;
         width: 93.71%;
@@ -197,7 +196,7 @@ main{
         margin-top: 5px;
     }
 }
-@media screen and (max-width:399px){
+@media screen and (max-width:760px){
     .caja-titulo{
         margin: 20px 0 0 0;
         width: auto;
@@ -209,10 +208,10 @@ main{
     }
     .texto-establecer{
         width: auto;
-        height: 324px;
+
     }
     .establecer-texto{
-        margin: 50px 10px 0px 10px;
+        margin: 50px 0px 0px 0px;
     }
     .caja-recomendacion{
         padding-left: 14%;
@@ -222,12 +221,14 @@ main{
     }
 
     .impresion-texto{
-        padding: 0px 0px 0px 10px;
         margin: 30px auto;
         width: auto;
     }
+    .caja-texto-impreso{
+        width: 40vh;
+    }
     #texto-script{
-        max-width: 40vh;
+        max-width: 50vh;
         min-width: 90%;
         margin: auto;
     }
